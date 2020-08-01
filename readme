@@ -1,0 +1,27 @@
+project euler
+---------------------
+
+* main.mjs is just a wrapper. i might add some sort of functionality to it
+* problems each have their own files & are under problems.
+
+javascript notes
+-------------------------
+
+since this is to be a learning process, might as well document as i go. might eventually migrate some stuff to the enyclopedia
+
+
+packaging / importing stuff
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+things to checkout
+--------------------------
+
+#. ECMAScript6 vs other engines, what's what
+#. ESLint, what does it do why I should use it
+#. import syntaxes & differences
+#. package.json - what/why/how
+
+eslint
+~~~~~~~~~~~~~~
+
+* spent ~30minutes, doesn't quite work. will check on Atari instead & see if I'm missing something obvious. I can't figure out what the eslint configuration file should be.
