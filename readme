@@ -1,7 +1,7 @@
 project euler
 ---------------------
 
-* main.mjs is just a wrapper. i might add some sort of functionality to it
+* main.js is just a wrapper. i might add some sort of functionality to it
 * problems each have their own files & are under problems.
 
 javascript notes
@@ -12,6 +12,16 @@ since this is to be a learning process, might as well document as i go. might ev
 
 packaging / importing stuff
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+package.json vs package-lock.json
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* see `this article <https://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8>`_ for  good summary of what that's about. The short story is:
+    * package-lock.json is what gets installed as dependancies when you import/run the program
+    * package-lock.json is generated from package.json (I think?)
+    * if package.json has been updated, then it trumps package-lock.json
+    * the main difference between the 2 is that package.json only cares that the versions of the dependancies you use match for major versions ( M.m.p, where M==major version, m=minors, p=patches), while package-lock.json is a complete freeze
+    * commit both to your git.
+
 
 things to checkout
 --------------------------
