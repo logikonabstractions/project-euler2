@@ -14,3 +14,15 @@ console.log(`and the answer is (P2): ${even_fibo(1, 2, 100)}`)
 console.log(`and the answer is (P3): ${largest_prime(1000)}`)
 console.log(`and the answer is (P3): ${largest_prime()}`)
 
+/*ok - let's turn that into some sort of small program*/
+
+class MainProgram {
+    constructor() {
+    }
+    run(){
+        /*basically displays list of problems & then ask to select one to run that problem & get its solution for a specific set of inputs
+        * also allows to simply exit */
+    }
+
+
+}
